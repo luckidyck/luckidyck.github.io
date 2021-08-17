@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rancho&family=Thasadith&display=swap');
 
 body{
-    background-color: black;
+    background-color: rgb(8, 8, 8);
+    background-image: url("https://raw.githubusercontent.com/luckidyck/wxd.github.io/main/background.jpg");
+    background-attachment: fixed;
 }
 .wxd{
     color: white;
