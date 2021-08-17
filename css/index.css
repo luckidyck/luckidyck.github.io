@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Thasadith&display=swap');
+
+html,body { min-height: 100%; width: 100%; }
+
+.bg{
+    background-image: url("https://github.com/luckidyck/wxd.github.io/blob/main/background.jpg?raw=true") ;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    backdrop-filter: blur(10px);
+}
+*/
+
+.wxd{
+    color: white;
+    text-align: center;
+    font-family: 'Rancho';
+    font-size: 100px;
+    line-height: 0.1;
+    margin: 5px;
+    padding: 5px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.navbar{
+    position: relative;
+    left: -90px;
+}
+.navbar > ul {margin: 40}
