@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Thasadith&display=swap');
+
+body{
+    background-color: black;
+}
+.wxd{
+    color: white;
+    text-align: center;
+    font-family: 'Rancho';
+    font-size: 100px;
+    line-height: 0.1;
+    margin: 5px;
+    padding: 5px;
+    letter-spacing: 10px;
+}
+
+.navbar{
+    position: relative;
+    left: -90px;
+    background-color: #00FFFF;
+}
+.navbar > ul {margin: 40}
