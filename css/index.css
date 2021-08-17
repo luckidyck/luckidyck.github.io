@@ -3,7 +3,7 @@
 html,body { min-height: 100%; width: 100%; }
 
 .bg{
-    background-image: url("https://github.com/luckidyck/wxd.github.io/blob/main/background.jpg?raw=true") ;
+    background-image: url("https://github.com/luckidyck/wxd.github.io/blob/main/back_ground.jpg?raw=true") ;
     background-size: cover;
     position: absolute;
     height: 100%;
