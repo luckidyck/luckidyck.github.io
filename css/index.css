@@ -1,15 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Rancho&family=Thasadith&display=swap');
 
+/*
+@keyframes floaty {
+	0% { transform: translate(0,  0px); }
+	50%  { transform: translate(0, 20px); }
+	100%   { transform: translate(0, -0px); }
+}   animation: floaty 3s infinite ease-in-out;
+*/
+
 html,body { min-height: 100%; width: 100%; }
 
+body{
+    background-color:black
+}
+
+/* old background image
 .bg{
     background-image: url("https://github.com/luckidyck/wxd.github.io/blob/main/back_ground.jpg?raw=true") ;
-    background-size: cover;
+    background-size:cover;
+    background-attachment:fixed;
     position: absolute;
     height: 100%;
     width: 100%;
     z-index: -1;
 }
+*/
 
 .container {
     display: flex;
@@ -19,7 +34,8 @@ html,body { min-height: 100%; width: 100%; }
     justify-content: center;
 }
 
-/*.overlay {
+/* filter blur
+.overlay {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -32,12 +48,13 @@ html,body { min-height: 100%; width: 100%; }
     color: white;
     text-align: center;
     font-family: 'Rancho';
-    font-size: 100px;
+    font-size: 280px;
     line-height: 0.1;
-    margin: 5px;
-    padding: 5px;
-    letter-spacing: 10px;
+    margin: 1px;
+    padding: 1px;
+    letter-spacing: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .navbar{
