@@ -8,10 +8,14 @@
 }   animation: floaty 3s infinite ease-in-out;
 */
 
-html,body { min-height: 100%; width: 100%; }
+html,body { display: flex; flex-direction: column; }
+
+html{height: 100%;}
 
 body{
-    background-color:black
+    background-color:black;
+    flex-grow: 1;
+    margin: 0;
 }
 
 /* old background image
@@ -46,15 +50,14 @@ body{
 
 .wxd{
     color: white;
-    text-align: center;
     font-family: 'Rancho';
     font-size: 280px;
-    line-height: 0.1;
     margin: 1px;
     padding: 1px;
     letter-spacing: 20px;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .navbar{
