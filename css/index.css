@@ -60,8 +60,3 @@ body{
     text-decoration: none;
 }
 
-.navbar{
-    position: relative;
-    left: -90px;
-}
-.navbar > ul {margin: 40}
