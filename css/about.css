@@ -77,18 +77,34 @@ body{
 input[type="checkbox"]{
   display: none;
 }
+
 .content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  text-align: center;
-  width: 100%;
-  color: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
+
 .content .title{
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 1000%;
   font-size: 160px;
   font-weight: bold;
+  align-items: center;
+  margin-top: 40vh;
+  height: 100vh;
+}
+
+.content .me{
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 1000%;
+  font-size: 20px;
+  font-weight: 500px;
+  align-items: center;
+  margin-top: 40vh;
+  height: 100vh;
 }
 

@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rancho&family=Thasadith&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
+/* creds to (navbar)
+https://www.codingnepalweb.com/fullscreen-overlay-navigation-menu-bar-html-css/ 
+*/
+
 html,body { min-height: 100%; width: 100%; }
 
 body{

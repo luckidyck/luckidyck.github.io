@@ -1,0 +1,9 @@
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(187, 187, 187);
+  }
